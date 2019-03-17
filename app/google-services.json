@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "510737316792",
+    "firebase_url": "https://campushaat-41c35.firebaseio.com",
+    "project_id": "campushaat-41c35",
+    "storage_bucket": "campushaat-41c35.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510737316792:android:e5c021635ba418de",
+        "android_client_info": {
+          "package_name": "com.example.campushaat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510737316792-lrgpgq9g985cp8v48qjq6vjih9i955gr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.campushaat",
+            "certificate_hash": "aaa42131e7bc96f25f4b65735a113cd2da2c3284"
+          }
+        },
+        {
+          "client_id": "510737316792-u5vfeckldl3mqop4r8r4g5s51jbdcns6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH9c1gPSNwyV-tLBOA7A9BgHCaS-e1mpo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "510737316792-u5vfeckldl3mqop4r8r4g5s51jbdcns6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
