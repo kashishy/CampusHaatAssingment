@@ -4,10 +4,7 @@
         android:state_pressed="false">
         <shape
             android:shape="rectangle">
-            <stroke
-                android:width="2dp"
-                android:color="#3D3D3D">
-            </stroke>
+
             <solid
                 android:color="#9F81C0">
             </solid>
@@ -18,10 +15,7 @@
         android:state_pressed="true">
         <shape
             android:shape="rectangle">
-            <stroke
-                android:width="2dp"
-                android:color="#3D3D3D">
-            </stroke>
+
             <solid
                 android:color="#D860B6">
             </solid>

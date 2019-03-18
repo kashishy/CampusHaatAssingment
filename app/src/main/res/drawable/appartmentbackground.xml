@@ -5,14 +5,9 @@
         <shape
             android:shape="rectangle">
 
-            <stroke
-                android:width="2dp"
-                android:color="#3D3D3D">
-            </stroke>
-
             <corners
-                android:topLeftRadius="10dp"
-                android:bottomRightRadius="10dp">
+                android:topLeftRadius="15dp"
+                android:bottomRightRadius="15dp">
             </corners>
             <solid
                 android:color="#CC9872">
@@ -25,13 +20,9 @@
         <shape
             android:shape="rectangle">
 
-            <stroke
-                android:width="2dp"
-                android:color="#3D3D3D">
-            </stroke>
             <corners
-                android:topLeftRadius="10dp"
-                android:bottomRightRadius="10dp">
+                android:topLeftRadius="15dp"
+                android:bottomRightRadius="15dp">
             </corners>
             <solid
                 android:color="#D860B6">

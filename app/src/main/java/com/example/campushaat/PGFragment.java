@@ -30,7 +30,7 @@ public class PGFragment extends Fragment {
     private Context context;
     private View view;
     private List<DataHold> data;
-    private RecyclerAdapter recyclerAdapter;
+    private RecyclerAdapterPG recyclerAdapter;
     private ProgressDialog progressDialog;
     public PGFragment() {
     }
@@ -68,7 +68,7 @@ public class PGFragment extends Fragment {
                         data.add(dataHold);
                     }
                 }
-                recyclerAdapter = new RecyclerAdapter(data,context);
+                recyclerAdapter = new RecyclerAdapterPG(data,context);
                 recyclerView.setAdapter(recyclerAdapter);
                 progressDialog.dismiss();
             }

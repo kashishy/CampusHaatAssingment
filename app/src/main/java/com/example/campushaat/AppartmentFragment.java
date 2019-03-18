@@ -28,7 +28,7 @@ public class AppartmentFragment extends Fragment {
     private Context context;
     private View view;
     private List<DataHold> data;
-    private RecyclerAdapter recyclerAdapter;
+    private RecyclerAdapterAppart recyclerAdapter;
     private ProgressDialog progressDialog;
     public AppartmentFragment() {
     }
@@ -67,7 +67,7 @@ public class AppartmentFragment extends Fragment {
                         data.add(dataHold);
                     }
                 }
-                recyclerAdapter = new RecyclerAdapter(data,context);
+                recyclerAdapter = new RecyclerAdapterAppart(data,context);
                 recyclerView.setAdapter(recyclerAdapter);
                 progressDialog.dismiss();
             }
