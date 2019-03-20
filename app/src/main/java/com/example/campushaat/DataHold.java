@@ -1,14 +1,20 @@
 package com.example.campushaat;
 
+import android.provider.ContactsContract;
+
 public class DataHold {
 
-    String name,type,address,image;
+    String name,address,image;
     String phone;
 
+    public enum DataType {
+        ONE_ITEM, TWO_ITEM,THREE_ITEM;
+    }
     public DataHold() {
     }
 
-    public DataHold(String address, String image,String name,String phone,String type) {
+    DataType type;
+    public DataHold(String address, String image,String name,String phone,DataType type) {
         this.name = name;
         this.type = type;
         this.phone = phone;
@@ -48,11 +54,11 @@ public class DataHold {
         this.name = name;
     }
 
-    public String getType() {
+    public DataType getType() {
         return type;
     }
 
-    public void setType(String type) {
+    public void setType(DataType type) {
         this.type = type;
     }
 }

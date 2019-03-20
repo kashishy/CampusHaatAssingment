@@ -7,38 +7,23 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <android.support.design.widget.AppBarLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/appbarlayout_id"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
     <android.support.v7.widget.Toolbar
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="65dp"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:title="Campus Haat"
         android:id="@+id/toolbar_id"
-        android:background="@color/colorPrimary"
+        android:background="#263041"
         android:paddingStart="20dp">
     </android.support.v7.widget.Toolbar>
 
-    <android.support.design.widget.TabLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/tablayout_id"
-        android:layout_below="@id/toolbar_id"
-        app:tabSelectedTextColor="#03A9F4"
-        app:tabIndicatorHeight="4dp"
-        android:textAlignment="center"
-        app:tabTextAppearance="@style/Base.TextAppearance.AppCompat.Body2"
-        app:tabTextColor="#ffff"/>
-
-    </android.support.design.widget.AppBarLayout>
-    <android.support.v4.view.ViewPager
-        android:layout_below="@+id/appbarlayout_id"
+    <android.support.v7.widget.RecyclerView
+        android:padding="15dp"
+        android:layout_below="@+id/toolbar_id"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/viewpager_id">
-    </android.support.v4.view.ViewPager>
+        android:background="#343E52"
+        android:id="@+id/recyclerView_id">
+    </android.support.v7.widget.RecyclerView>
 
 </RelativeLayout>
